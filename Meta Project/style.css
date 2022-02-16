@@ -1,0 +1,102 @@
+body{
+    margin: 0%;
+    background-color: rgb(175, 218, 245);
+}
+h1
+{
+    display: inline-block;
+    font-size: 28px;
+    color: blue;
+    margin-right: 12px;
+}
+header{
+    padding: 4px ;
+    margin-bottom: 8px;
+    background-color: lightgreen;
+    box-shadow: 0 2px 5px #aaa;
+}
+span{ 
+    font-size: 20px;
+    padding: 4px;
+}
+main{
+    margin: 16px;
+    text-align: center;
+    padding: 2% 8%;
+}
+p{
+    text-align: left;
+    font-size: 24px;
+    padding: 12px;
+}
+#head-img{
+    text-align: center;
+    font-size: 50px;
+}
+#head-img img{
+    width: 100%;
+    margin-top: 12px;
+}
+section{
+    display: inline-block;
+    width: 65%;
+    margin-right: 16px;
+    vertical-align: top;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #aaa;
+}
+aside{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    background-color: white;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px ;
+    box-shadow: 0 2px 5px #aaa;
+}
+.maps{
+    width: 100%;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 16px;
+}
+.maps:last-of-type{
+    border-bottom: 0;
+    margin-bottom: 0%;
+}
+.maps img{
+    width: 100%;
+}
+.img-text{
+    font-size: 24px;
+    color: black;
+}
+@media  screen  and (max-width:768px){
+    main{
+        padding: 2% ;
+    }
+    h1{
+        text-align: center;
+        display: block;
+        margin: 4px;
+    }
+    header{
+        text-align: center;
+    }
+    p{
+        font-size: 18px;
+    }
+    section{
+        display: block;
+        width: 100%;
+    }
+    #head-img{
+        font-size: 28px;
+    }
+    aside{
+        display: block;
+        width: 100%;
+    }
+}
+
